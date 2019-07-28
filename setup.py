@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="qrange",
-    version="1.0.2",
+    version="1.0.5",
     description="Working with ranges made simple",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -20,10 +20,6 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages = find_packages(),
-    entry_points={
-        "console_scripts": [
-            "realpython=reader.__main__:main",
-        ]
-    },
+    packages = ['qrange'],
+    include_package_data=True,
 )
