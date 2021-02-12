@@ -61,4 +61,3 @@ var = clamp(var, [25, 75])
 
 ## About the author
 Hi! I am a solo software developer. I created **qrange** as an open source library to simplify the process of using ranges in Python. Check out my [other repositories](https://github.com/Forfunckle?tab=repositories) as well.
-If you want to support me, please [buy me a coffee here](https://www.paypal.me/forfunckle). Any amount is appreciated! :)
